@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif'; 
+    background-color: #f0f0f0; 
+    color: #00c3ff; 
+    margin: 20px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f6999; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-family: 'Poppins', 'sans-serif';
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    position: static;
+    transform: translateX(230px);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    transform: translate(500, 1000);
+    transform-origin: top left;
+    transform: translateX(200px);
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000034;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.boas-vindas img, .destinos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.destinos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destinos li {
+    background-color: #005f7f; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 32%; 
+}
+
+.destinos li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sobre iframe {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato form label {
+    font-weight: bold;
+}
+
+.contato form input, .contato form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.contato form button {
+    background-color: #008CBA; 
+    color: #d4d4d4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato form button:hover {
+    background-color: #005f7f; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2f6999;
+    border-radius: 10px;
+    color: #fff;
+}
